@@ -1,0 +1,28 @@
+{
+  "name": "nmath",
+  "version": "1.0.0",
+  "description": "An extremly optimized vector and matrix library for js",
+  "main": "out/NMath.node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasNarvaez/nmath.js.git"
+  },
+  "keywords": [
+    "vector",
+    "matrix",
+    "graphics",
+    "math"
+  ],
+  "author": "Nicolas Narvaez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicolasNarvaez/nmath.js/issues"
+  },
+  "homepage": "https://github.com/NicolasNarvaez/nmath.js#readme",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  }
+}
