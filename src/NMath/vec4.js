@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-var vec4 = (function() {
+vec4 = (function() {
   /*
   var a = new mat4.create();
   var v1 = [1,1,0,0], v2 = [0,0,1,0];
@@ -172,5 +172,3 @@ var vec4 = (function() {
     rotateNormalized: rotateNormalized,
   }
 })();
-
-module.exports = vec4;

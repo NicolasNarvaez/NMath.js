@@ -27,7 +27,7 @@ SOFTWARE.
 * @module mat
 * @memberof NMath
 */
-var mat = (function() {
+mat = (function() {
   /**
   * Will create a well formated string representing the matrix, ideal for console output
   * @function str

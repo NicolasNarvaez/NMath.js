@@ -22,7 +22,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-var vec3 = (function() {
+
+vec3 = (function() {
 
   function rotateNormalizedRelative(obj, va, vb, theta) {
     var mat = NMath.mat,
@@ -58,5 +59,3 @@ var vec3 = (function() {
     rotateNormalizedRelative: rotateNormalizedRelative
   }
 })();
-
-module.exports = vec3;

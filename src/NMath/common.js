@@ -22,8 +22,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-var common = (function() {
-  
+common = (function() {
+
   function copy(out, from, out_offset, copy_length, from_offset) {
     if(!out_offset) out_offset = 0;
     if(!from_offset) from_offset = 0;
@@ -40,5 +40,3 @@ var common = (function() {
     copy: copy
   };
 })();
-
-module.exports = common;

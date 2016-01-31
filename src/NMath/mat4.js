@@ -23,7 +23,7 @@ SOFTWARE.
 */
 
 
-var mat4 = (function() {
+mat4 = (function() {
 
     function rotationPlane(out, v1, v2, theta, print) {
       var tmp_v1 = new vec4.create();
@@ -111,8 +111,6 @@ var mat4 = (function() {
       ortogonalLen: ortogonalLen,
     }
 })()
-
-module.exports = mat4;
 
 /*
 i dont really remember why i had to save this thing.... it will be

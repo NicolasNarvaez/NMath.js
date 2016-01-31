@@ -22,7 +22,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-var mat5 = (function() {
+/**
+* NSquare matrix lib
+* @class matN
+* @memberof NMath
+*/
+mat5 = (function() {
   /**
   * Generates a proyection matrix from angles, one for each perpendicular
   * to viewer axis
@@ -120,5 +125,3 @@ var mat5 = (function() {
     projection: projection
   }
 })();
-
-module.exports = mat5;

@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-var vec = (function() {
+vec = (function() {
   function create(length) {
     var v = new ARRAY_TYPE(length),
       i=length;
@@ -91,5 +91,3 @@ var vec = (function() {
     str: str
   };
 })();
-
-module.exports = vec;
